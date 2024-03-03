@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+# AutoGitCraft Chrome Extension
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+The AutoGitCraft is a Chrome extension designed to streamline the process of creating GitHub repositories. As a software engineer, you can leverage this extension to enhance your workflow and save time when setting up new projects on GitHub.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Automation:** Automate the creation of GitHub repositories with just a few clicks, reducing manual steps.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Customization:** Configure repository details such as name, visibility from the extension interface.
 
-- Configure the top-level `parserOptions` property like this:
+- **Time-Saving:** Say goodbye to repetitive tasks and enjoy a quicker and more seamless repository creation experience.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Installation
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone this repository.
+2. Open Chrome and navigate to `chrome://extensions/`.
+3. Enable "Developer mode" in the top right corner.
+4. Click "Load unpacked" and select the build folder in extension directory.
+
+## Usage
+
+1. Open the GitHub website.
+2. Click on the extension icon in the Chrome toolbar.
+3. Follow the prompts to set up your new repository.
+
+## Examples
+
+### Basic Usage
+
+```bash
+# Clone the repository
+git clone https://github.com/username/repo.git
+
+# Navigate to the project folder
+cd repo
+
+# Install dependencies
+npm install
+
+# Start the project
+npm start
