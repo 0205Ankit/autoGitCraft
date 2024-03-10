@@ -25,13 +25,12 @@ The AutoGitCraft is a Chrome extension designed to streamline the process of cre
 2. Click on the extension icon in the Chrome toolbar.
 3. Follow the prompts to set up your new repository.
 
-## Examples
 
-### Basic Usage
+### Setup
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/repo.git
+git clone https://github.com/0205Ankit/autoGitCraft.git
 
 # Navigate to the project folder
 cd repo
@@ -40,4 +39,4 @@ cd repo
 npm install
 
 # Start the project
-npm start
+npm run dev
